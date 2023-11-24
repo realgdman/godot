@@ -20,10 +20,10 @@ jobs:
 #    needs: static-checks
 #    uses: ./.github/workflows/ios_builds.yml
 
-  javascript-build:
-    name: 🌐 JavaScript
-    needs: static-checks
-    uses: ./.github/workflows/javascript_builds.yml
+##  javascript-build:
+##    name: 🌐 JavaScript
+##    needs: static-checks
+##    uses: ./.github/workflows/javascript_builds.yml
 
   linux-build:
     name: 🐧 Linux
@@ -40,7 +40,7 @@ jobs:
 #    needs: static-checks
 #    uses: ./.github/workflows/server_builds.yml
 
-  windows-build:
-    name: 🏁 Windows
-    needs: static-checks
-    uses: ./.github/workflows/windows_builds.yml
+##  windows-build:
+##    name: 🏁 Windows
+##    needs: static-checks
+##    uses: ./.github/workflows/windows_builds.yml
