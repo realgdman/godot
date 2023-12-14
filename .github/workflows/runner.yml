@@ -25,6 +25,11 @@ jobs:
     needs: static-checks
     uses: ./.github/workflows/javascript_builds.yml
 
+  javascript_debug_build:  
+    name: 🌐 JavaScript-debug
+    needs: static-checks
+    uses: ./.github/workflows/javascript_debug_builds.yml
+
   linux-build:
     name: 🐧 Linux
     needs: static-checks
